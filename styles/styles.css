@@ -1,0 +1,11 @@
+:root {
+   /* Primary Colors */
+  --primary-bright-orange: hsl(31, 77%, 52%); /* Bright orange */
+  --primary-dark-cyan: hsl(184, 100%, 22%); /* Dark cyan */
+  --primary-very-dark-cyan: hsl(179, 100%, 13%); /* Very dark cyan */
+
+
+/* Neutral Colors */
+--neutral-transparent-white: hsla(0, 0%, 100%, 0.75); /* Transparent white (paragraphs) */
+--neutral-very-light-gray: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
+}
