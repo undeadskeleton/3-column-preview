@@ -9,3 +9,51 @@
 --neutral-transparent-white: hsla(0, 0%, 100%, 0.75); /* Transparent white (paragraphs) */
 --neutral-very-light-gray: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
 }
+
+.sedan{
+   background-color: var(--primary-bright-orange);
+}
+
+.sedan .btn{
+   color:var(--primary-bright-orange);
+}
+
+.suv{
+   background-color: var(--primary-dark-cyan);
+}
+
+.suv .btn{
+   color:var(--primary-dark-cyan);
+}
+.luxury{
+   background-color: var(--primary-very-dark-cyan);
+}
+
+.luxury .btn{
+   color:var(--primary-very-dark-cyan);
+}
+ .big-shoulder{
+  
+      font-family: "Big Shoulders Display", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+   }
+
+ .lexend{
+      font-family: "Lexend Deca", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+   }
+   
+ .title{
+    color:var(--neutral-very-light-gray);
+    font-size:3rem;
+ }
+
+.desc{
+   color: var(--neutral-transparent-white);
+   max-width:20ch;
+   font-size:1.3rem;
+}

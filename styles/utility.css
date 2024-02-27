@@ -1,5 +1,37 @@
-@media (min-width:375px){}
+/* @media (min-width:375px){} */
 
-@media (min-width:600lx){}
+/* @media (min-width:600lx){} */
 
-@media (min-width:1440px){}
+/* @media (min-width:1440px){} */
+
+.car{
+   display:flex;
+   gap:1.5rem;
+   flex-direction:column;
+   
+}
+
+.section{
+   padding: 3rem 2.5rem;
+}
+
+.car-logo{
+   width:20%;
+   object-fit: contain;
+}
+.btn{
+   background-color:white;
+   padding:1rem 2rem;
+   width:60%;
+   /* width:5rem;
+   height:4rem; */
+   text-align: center;
+   border-radius:30px;
+   text-wrap: nowrap;
+}
+
+.btn:hover{
+   background-color: inherit;
+   color:var(--neutral-transparent-white);
+   border:2px solid var(--neutral-transparent-white);
+}
